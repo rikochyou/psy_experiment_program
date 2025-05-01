@@ -1,0 +1,114 @@
+4.3980 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [2560, 1600]. Using actual size
+5.7104 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000183DC7C6970>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000183DE7249D0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([2560, 1600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.7107 	EXP 	window1: mouseVisible = True
+5.7110 	EXP 	window1: mouseVisible = False
+5.7110 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.7111 	EXP 	window1: recordFrameIntervals = False
+5.7707 	EXP 	window1: recordFrameIntervals = True
+5.8375 	EXP 	Screen (0) actual frame rate measured at 164.80Hz
+5.8376 	EXP 	window1: recordFrameIntervals = False
+7.1139 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.1163 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([ 1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([ 1., -1., -1.]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1., -1., -1.]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.1216 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+7.1221 	EXP 	Created polygon_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0., 0., 0.]), fillColorSpace='rgb', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0., 0., 0.]), lineWidth=1.0, name='polygon_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.1282 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.1289 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([ 1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([ 1., -1., -1.]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1., -1., -1.]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.1308 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+7.1313 	EXP 	Created polygon_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0., 0., 0.]), fillColorSpace='rgb', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0., 0., 0.]), lineWidth=1.0, name='polygon_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+7.1395 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='实验结束，非常感谢您的参加！', units='height', win=Window(...), wrapWidth=1)
+7.1444 	EXP 	text: autoDraw = True
+8.7323 	EXP 	Imported loop.xlsx as conditions, 8 conditions, 1 params
+8.7431 	EXP 	Created sequence: fullRandom, trialTypes=8, nReps=20, seed=None
+8.7433 	EXP 	New trial (rep=0, index=0): {'pic': 'image\\p_tri'}
+8.7459 	DATA 	Keypress: space
+8.7480 	EXP 	text: autoDraw = False
+8.7480 	EXP 	polygon: autoDraw = True
+9.5460 	WARNING 	Requested image 'image\\p_tri' not found but similar filename 'image\\p_tri.png' exists. This will be used instead but changing the filename is advised.
+9.5890 	EXP 	polygon: autoDraw = False
+9.5890 	EXP 	polygon: autoDraw = False
+9.5890 	EXP 	image: image = 'image\\p_tri'
+9.5890 	EXP 	image: autoDraw = True
+10.0543 	EXP 	image: autoDraw = False
+10.0543 	EXP 	polygon_2: autoDraw = True
+11.0481 	EXP 	New trial (rep=0, index=1): {'pic': 'image\\w_tri'}
+11.0537 	EXP 	polygon_2: autoDraw = False
+11.0537 	EXP 	polygon: autoDraw = True
+11.7511 	WARNING 	Requested image 'image\\w_tri' not found but similar filename 'image\\w_tri.png' exists. This will be used instead but changing the filename is advised.
+11.7569 	EXP 	polygon: autoDraw = False
+11.7569 	EXP 	polygon: autoDraw = False
+11.7569 	EXP 	image: image = 'image\\w_tri'
+11.7569 	EXP 	image: autoDraw = True
+12.2595 	EXP 	image: autoDraw = False
+12.2595 	EXP 	polygon_2: autoDraw = True
+13.2532 	EXP 	New trial (rep=0, index=2): {'pic': 'image\\w_rect'}
+13.2591 	EXP 	polygon_2: autoDraw = False
+13.2591 	EXP 	polygon: autoDraw = True
+13.7563 	WARNING 	Requested image 'image\\w_rect' not found but similar filename 'image\\w_rect.png' exists. This will be used instead but changing the filename is advised.
+13.7621 	EXP 	polygon: autoDraw = False
+13.7621 	EXP 	polygon: autoDraw = False
+13.7621 	EXP 	image: image = 'image\\w_rect'
+13.7621 	EXP 	image: autoDraw = True
+14.2647 	EXP 	image: autoDraw = False
+14.2647 	EXP 	polygon_2: autoDraw = True
+15.2586 	EXP 	New trial (rep=0, index=3): {'pic': 'image\\w_tri'}
+15.2642 	EXP 	polygon_2: autoDraw = False
+15.2642 	EXP 	polygon: autoDraw = True
+16.2582 	WARNING 	Requested image 'image\\w_tri' not found but similar filename 'image\\w_tri.png' exists. This will be used instead but changing the filename is advised.
+16.2642 	EXP 	polygon: autoDraw = False
+16.2642 	EXP 	polygon: autoDraw = False
+16.2642 	EXP 	image: image = 'image\\w_tri'
+16.2642 	EXP 	image: autoDraw = True
+16.7669 	EXP 	image: autoDraw = False
+16.7669 	EXP 	polygon_2: autoDraw = True
+17.7607 	EXP 	New trial (rep=0, index=4): {'pic': 'image\\w_rect'}
+17.7662 	EXP 	polygon_2: autoDraw = False
+17.7662 	EXP 	polygon: autoDraw = True
+18.3604 	WARNING 	Requested image 'image\\w_rect' not found but similar filename 'image\\w_rect.png' exists. This will be used instead but changing the filename is advised.
+18.3663 	EXP 	polygon: autoDraw = False
+18.3663 	EXP 	polygon: autoDraw = False
+18.3663 	EXP 	image: image = 'image\\w_rect'
+18.3663 	EXP 	image: autoDraw = True
+18.8693 	EXP 	image: autoDraw = False
+18.8693 	EXP 	polygon_2: autoDraw = True
+19.8628 	EXP 	New trial (rep=0, index=5): {'pic': 'image\\w_tri'}
+19.8685 	EXP 	polygon_2: autoDraw = False
+19.8685 	EXP 	polygon: autoDraw = True
+20.3658 	WARNING 	Requested image 'image\\w_tri' not found but similar filename 'image\\w_tri.png' exists. This will be used instead but changing the filename is advised.
+20.3717 	EXP 	polygon: autoDraw = False
+20.3717 	EXP 	polygon: autoDraw = False
+20.3717 	EXP 	image: image = 'image\\w_tri'
+20.3717 	EXP 	image: autoDraw = True
+20.8743 	EXP 	image: autoDraw = False
+20.8743 	EXP 	polygon_2: autoDraw = True
+21.8682 	EXP 	New trial (rep=0, index=6): {'pic': 'image\\w_rect'}
+21.8741 	EXP 	polygon_2: autoDraw = False
+21.8741 	EXP 	polygon: autoDraw = True
+22.6679 	WARNING 	Requested image 'image\\w_rect' not found but similar filename 'image\\w_rect.png' exists. This will be used instead but changing the filename is advised.
+22.6740 	EXP 	polygon: autoDraw = False
+22.6740 	EXP 	polygon: autoDraw = False
+22.6740 	EXP 	image: image = 'image\\w_rect'
+22.6740 	EXP 	image: autoDraw = True
+23.1765 	EXP 	image: autoDraw = False
+23.1765 	EXP 	polygon_2: autoDraw = True
+24.1703 	EXP 	New trial (rep=0, index=7): {'pic': 'image\\w_tri'}
+24.1760 	EXP 	polygon_2: autoDraw = False
+24.1760 	EXP 	polygon: autoDraw = True
+25.0732 	WARNING 	Requested image 'image\\w_tri' not found but similar filename 'image\\w_tri.png' exists. This will be used instead but changing the filename is advised.
+25.0789 	EXP 	polygon: autoDraw = False
+25.0789 	EXP 	polygon: autoDraw = False
+25.0789 	EXP 	image: image = 'image\\w_tri'
+25.0789 	EXP 	image: autoDraw = True
+25.5819 	EXP 	image: autoDraw = False
+25.5819 	EXP 	polygon_2: autoDraw = True
+26.5755 	EXP 	New trial (rep=1, index=0): {'pic': 'image\\w_rect'}
+26.5811 	EXP 	polygon_2: autoDraw = False
+26.5811 	EXP 	polygon: autoDraw = True
+27.4784 	WARNING 	Requested image 'image\\w_rect' not found but similar filename 'image\\w_rect.png' exists. This will be used instead but changing the filename is advised.
+27.4842 	EXP 	polygon: autoDraw = False
+27.4842 	EXP 	polygon: autoDraw = False
+27.4842 	EXP 	image: image = 'image\\w_rect'
+27.4842 	EXP 	image: autoDraw = True
+27.9869 	EXP 	image: autoDraw = False
+27.9869 	EXP 	polygon_2: autoDraw = True
+28.5886 	DATA 	Keypress: escape
+29.9769 	EXP 	window1: mouseVisible = True
