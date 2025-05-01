@@ -1,0 +1,44 @@
+starting task for 1
+
+ans =
+
+    'Chinese (Simplified)_China.utf8'
+
+PTB-WARNING: ==============================================================================================================================
+PTB-WARNING: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE! ALL FLIP STIMULUS ONSET TIMESTAMPS WILL BE VERY LIKELY UNRELIABLE AND LESS ACCURATE!
+PTB-WARNING: STIMULUS ONSET TIMING WILL BE UNRELIABLE AS WELL, AND GRAPHICS PERFORMANCE MAY BE SEVERELY REDUCED! STIMULUS IMAGES MAY NOT
+PTB-WARNING: SHOW UP AT ALL! DO NOT USE THIS MODE FOR RUNNING REAL EXPERIMENT SESSIONS WITH ANY REQUIREMENTS FOR ACCURATE TIMING!
+PTB-WARNING: ==============================================================================================================================
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 1553.420995 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 1553.422807 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 1553.423753, scanline = 727
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 457, line_post_swaprequest = 687, time_post_swaprequest = 1553.423613
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 1553.421078
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+{操作在以下过程中被用户终止 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('KbWait')" style="font-weight:bold">KbWait</a>
+
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('KbWait', 'D:\software\Psychtoolbox\Psychtoolbox\PsychBasic\KbWait.m', 111)" style="font-weight:bold">KbWait</a> (<a href="matlab: opentoline('D:\software\Psychtoolbox\Psychtoolbox\PsychBasic\KbWait.m',111,0)">第 111 行</a>)
+    KbWait(deviceNumber, 1, untilTime);
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('KbPressWait', 'D:\software\Psychtoolbox\Psychtoolbox\PsychBasic\KbPressWait.m', 34)" style="font-weight:bold">KbPressWait</a> (<a href="matlab: opentoline('D:\software\Psychtoolbox\Psychtoolbox\PsychBasic\KbPressWait.m',34,0)">第 34 行</a>)
+[secs, keyCode, deltaSecs] = KbWait(deviceNumber, 2, varargin{:});
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('drawAndKey', 'E:\vis_oddball\drawAndKey.m', 10)" style="font-weight:bold">drawAndKey</a> (<a href="matlab: opentoline('E:\vis_oddball\drawAndKey.m',10,0)">第 10 行</a>)
+ KbPressWait();
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('visual_oddball', 'E:\vis_oddball\visual_oddball.m', 116)" style="font-weight:bold">visual_oddball</a> (<a href="matlab: opentoline('E:\vis_oddball\visual_oddball.m',116,0)">第 116 行</a>)
+drawAndKey(w,s);
+} 

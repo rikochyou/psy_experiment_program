@@ -1,0 +1,24 @@
+1. 打开_visual oddball.m文件，为保证程序正常运行，请在【设置工作目录】部分设置对应的路径！！！
+    如果需要全屏运行，请在【设置屏幕】部分将screenRes   = [0 0 800 600]; 更改为screenRes   = []; 
+2. 点击运行
+3. 实验需要的参数可以在visual_oddball.m文件中设置；
+4. 实验运行后会在控制台询问是否记录MEG，若需要记录，输入1后按回车键，若不需要记录，输入0后按回车键；
+5. 输入被试信息后，按回车键开始实验程序；
+
+实验结果说明：
+实验结果保存在mats文件夹下，
+subID: 被试ID号
+result: 实验结果
+	subInfo: 被试信息
+	data: 
+		block: 第几个block
+		BlockStart: block开始时间
+		timing:
+			response: 按了哪个按键，若没有按键则为0
+			correct: 是否反应正确
+			keyontime: 按键的时间
+			imgname: 刺激类型
+			onset：刺激开始时间
+			rt： 反应时
+	MEGStart: MEG开始记录的时间
+	finishtime: 实验结束时间

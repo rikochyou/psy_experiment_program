@@ -1,0 +1,6 @@
+starting task for 1
+{函数或变量 'io64' 无法识别。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('visual_oddball', 'E:\vis_oddball\visual_oddball.m', 68)" style="font-weight:bold">visual_oddball</a> (<a href="matlab: opentoline('E:\vis_oddball\visual_oddball.m',68,0)">第 68 行</a>)
+    ioObj = io64;
+} 
